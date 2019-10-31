@@ -1,6 +1,10 @@
 # LatencyScan
 YARRに実装されていない、LatencyScanを一応できるようにする手順
 
+## 前提
+* ExtTriggerScanできるようなFWであること
+* RD53AとFPGAボードが、データ通信用のDP1とExtTrigger取得用のDP2でつながっていること
+
 ## 準備
 1. 以下のコマンドを実行
 ```
