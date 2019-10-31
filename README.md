@@ -4,9 +4,12 @@ YARRに実装されていない、LatencyScanを一応できるようにする�
 ## 準備
 1. 以下のコマンドを実行
 ```
-% cd Yarr/src
+% git clone https://gitlab.cern.ch/YARR/YARR.git Yarr
+% cd Yarr
+% git checkout ff468636236a087d974fe2400eb1797e30d211d6
+% cd src
 % git clone xxxx
-% mv ./std_latencyscan.json ./configs/scans/rd53a/
+% mv ./LatencyScan/std_latencyscan.json ./configs/scans/rd53a/
 ```
 1. `libYarr/StdDataGatherer.cpp`に以下の**追加**と書かれた部分を追加
 ```
